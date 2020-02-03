@@ -15,9 +15,7 @@ union() {
         color("grey")
         cylinder(r=17,h=5,$fn=6);
         color("grey")
-        translate(v=[0,0,2]) {
-            cylinder(r=15,h=5,$fn=6);
-        }
+        translate(v=[0,0,2]) cylinder(r=15,h=5,$fn=6);
     }
 
     scale([2.8,3.5,1.7]) {  
